@@ -33,6 +33,7 @@ export const Banner = styled.div`
   background-color: rgb(237, 198, 177);
   padding: 20px;
   border-radius: 10px;
+  max-width: 900px;
   @media (min-width: 1500px) {
     width: 100vw;
   }
