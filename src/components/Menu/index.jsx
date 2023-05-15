@@ -95,21 +95,21 @@ const Menu = ({ action }) => {
                 </Link>
               </div>
               <div>
-                <Link href="/sobre">
+                <Link href="/contato">
                   <p className={router.pathname == '/contato' ? 'active' : ''}>
                     Contato
                   </p>
                 </Link>
               </div>
               <div>
-                <Link href="/pagina-ingressos">
+                <Link href="/blogs">
                   <p className={router.pathname == '/blogs' ? 'active' : ''}>
                     Blog
                   </p>
                 </Link>
               </div>
               <div>
-                <Link href="/pagina-lineup">
+                <Link href="/sobre">
                   <p className={router.pathname == '/sobre' ? 'active' : ''}>
                     Sobre
                   </p>
