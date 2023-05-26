@@ -36,7 +36,7 @@
     "react-hook-form": "^7.40.0",
     "react-input-mask": "^2.0.4",
     "styled-components": "5.3.3",
-    "yup": "^0.32.11"
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "3.3.0",
