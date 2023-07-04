@@ -1,16 +1,17 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  width: 100vw;
+  width: 100%;
+  height: 600px;
   display: flex;
   justify-content: center;
+  background-color: aliceblue;
 `
 
 export const Container = styled.div`
   width: 1000px;
-  margin-top: 15vh;
+  margin-top: 20vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   overflow: auto;
   display: flex;
@@ -22,18 +23,15 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  flex-direction: column;
-  width: 500px;
-  max-width: 1000px;
-  background-color: #FFF4D2;
+  flex-direction: row;
+  width: 1000px;
   padding: 20px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   h2{
     cursor: pointer;
     transition: all .2s;
     width: fit-content;
-    border-bottom: 2px solid;
     padding-top: 10px;
   }
   h2:first-child{
@@ -43,6 +41,21 @@ export const Content = styled.div`
     color: #7C96AB;
   }
 `
+
+export const Card = styled.div`
+  cursor: pointer;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224,168,153);
+`
+
+
 
 export const Banner = styled.div`
   /* height: 80vh; */

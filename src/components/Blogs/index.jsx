@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import Link from 'next/link'
 import * as S from './styles'
+import Footer from 'components/Footer'
 
 const Blogs = ({blogs}) => {
   console.log(blogs)
@@ -34,12 +35,15 @@ const Blogs = ({blogs}) => {
         <S.Content>
           {blogs.headings.map((item, index) => (
           <Link href={'blogs/'+(blogs.slugs[index].params.slug)}>
-            <h2>{item.params.heading}</h2>
+            <S.Card>
+              <h2>{item.params.heading}</h2>
+            </S.Card>
           </Link>
         ))}
         </S.Content>
         </S.Container>
       </S.Wrapper>
+      <Footer />
     </>
   )
   }

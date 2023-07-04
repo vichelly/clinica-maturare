@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Menu from 'components/Menu'
 import Blogs from 'components/Blogs'
+import Footer from 'components/Footer'
 
 
 export default function BlogsTemplate(blogs) {

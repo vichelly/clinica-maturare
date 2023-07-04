@@ -44,37 +44,3 @@ export async function getStaticProps() {
     slugs
   } }
 }
-/* 
-export async function getStaticPaths() {
-  const { blogs } = await client.request(GET_PAGES, { first: 50 })
-
-  const paths = blogs.map(({ slug }) => ({
-    params: { slug }
-  }))
-
-  return { paths, fallback: true }
-}
- */
-
-/* export const getStaticProps = async () => {
-    const {blogs} = await client.request(GET_BLOGS)
-    return{
-      props: {
-        heading: blogs[0].heading,
-        slug: blogs[0].slug
-      }
-    }
-} */
-
-/* export const getStaticProps = async ({ params }) =>{
-  const {blogs} = await client.request(GET_PAGE_BY_SLUG, {
-      slug: `${params?.slug}`
-  })
-  if(!blogs) return {notFound: true}
-  return{
-      props: {
-          heading: blogs[0].heading,
-          slug: blogs[0].body.html
-      }
-  }
-} */
