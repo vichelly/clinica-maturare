@@ -8,24 +8,23 @@ const Main = () => (
         <S.Banner>
             <S.BannerLeft>
                 <div>
-                    <h1>CLINICA DE PSICANALISE</h1>
+                    <h1>Clínica Maturare</h1>
                 </div>
                 <div>
                     <h2>Erika Fujita</h2>
                 </div>
                 <div>
-                    <h3>Atendimentos remoto ou presenciais</h3>
+                    <h3>Psicanalise / psicopedagogia</h3>
                 </div>
             </S.BannerLeft>
             <S.BannerRight>
-                <h4>Nos últimos meses estamos vivendo uma pandemia do vírus COVID-19, o mundo todo está trabalhando para que possamos sair da quarentena, e voltar ao convívio social, o mais breve possível.</h4>
-                <br />
-                <h4>
-                Enquanto isto não acontece, é muito importante que estejamos atentos à nossa saúde mental, o estresse durante este período e o distanciamento social, podem causar uma série de problemas mentais e sociais.
+                <h4>O autoconhecimento é imprescindível para o crescimento intelectual do ser, busque essa oportunidade em meio ao caos da vida, das exigências e das distrações. O investimento que vc faz na alma ninguém tira.
+É desatino pensar que havemos de entrar no céu sem antes entrar em nós mesmos.
+Santa Teresa d'avila
                 </h4>
                 <br />
                 <h4>
-                <strong>Estamos aqui para ajudar, entre em contato!</strong>
+                <strong>Atendimento presencial e remoto</strong>
                 </h4>
             </S.BannerRight>
         </S.Banner>

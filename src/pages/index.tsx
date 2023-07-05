@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Menu from 'components/Menu'
 import Main from 'components/Main'
 import  Footer  from 'components/Footer'
+import BotaoWpp from 'components/BotaoWpp'
 
 export default function Home() {
   //alterar cor do menu ao scrollar
@@ -23,6 +24,7 @@ export default function Home() {
     <>
       <Menu action={escureceMenu} />
       <Main />
+      <BotaoWpp />
       <Footer />
     </>
   )
